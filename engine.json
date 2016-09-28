@@ -7,7 +7,7 @@
       "name": "als",
       "params": {
         "rank": 10,
-        "numIterations": 5,
+        "numIterations": 2,
         "lambda": 0.01
       }
     }
