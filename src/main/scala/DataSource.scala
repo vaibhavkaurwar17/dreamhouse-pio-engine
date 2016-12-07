@@ -57,15 +57,16 @@ object DataSource {
         |)
       """.stripMargin))
 
-    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('a0236000002NHKoAAO', 'c1')"))
-    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('a0236000002NHKoAAO', 'c2')"))
-    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('a0236000002NHKvAAO', 'c2')"))
-    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('a0236000002NHKsAAO', 'c2')"))
-    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('a0236000002NHKsAAO', 'c2')"))
-    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('a0236000002NHKoAAO', 'c3')"))
-    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('a0236000002NHKpAAO', 'c3')"))
-    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('a0236000002NHKrAAO', 'c3')"))
-    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('a0236000002NHKtAAO', 'c3')"))
+
+    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('0032800000huZ5TAAU', '0032800000jNrKsAAK')"))
+    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('0032800000huZ5TAAU', '0032800000jNuppAAC')"))
+    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('0032800000huZ5TAAU', '0032800000jNvaHAAS')"))
+    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('0032800000huYirAAE', '0032800000jNuppAAC')"))
+    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('0032800000huYrSAAU', '0032800000jNuppAAC')"))
+    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('0032800000hNPEkAAO', '0032800000jNuppAAC')"))
+    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('0032800000huYuRAAU', '0032800000jNvaHAAS')"))
+    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('0032800000huYc0AAE', '0032800000jNvaHAAS')"))
+    withStatement(_.executeQuery("INSERT INTO favorite__c (property__c, user__c) VALUES ('0032800000huYepAAE', '0032800000jNvaHAAS')"))
   }
 
 }
